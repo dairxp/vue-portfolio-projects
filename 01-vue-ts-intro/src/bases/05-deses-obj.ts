@@ -16,7 +16,7 @@ export const person: Hero = {
 // console.log({ age, name, power });
 
 interface CreateHeroArgs {
-    name: string;
+    name: string;    
     age: number;
     codeName: string;
     power?: string;
